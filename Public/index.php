@@ -1,5 +1,7 @@
 <?php
 
+error_reporting(0);
+
 chdir('..');
 require 'Core/Autoloader.php';
 Autoloader::register();
