@@ -12,10 +12,24 @@
         <p>Header</p>
     </div>
     <div id="center">
-        <p>Center</p>
+        <?= $content ?>
     </div>
     <div id="footer">
-        <p>Footer</p>
+        <div class="social-container">
+            <a href="https://www.instagram.com/?hl=fr">
+                <img src="Pictures/Instagram.png" alt="Instagram Logo" class="social">
+            </a>
+        </div>
+        <div class="social-container">
+            <a href="https://www.facebook.fr/">
+                <img src="Pictures/Facebook.png" alt="Facebook Logo" class="social">
+            </a>
+        </div>
+        <div class="social-container">
+            <a href="https://www.twitter.fr/">
+                <img src="Pictures/Twitter.png" alt="Twitter Logo" class="social">
+            </a>
+        </div>
         <h3>© lbarthon 2019</h3>
     </div>
 </body>
